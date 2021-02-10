@@ -8,7 +8,7 @@
 
 ```
 
-[Test link](www.seznam.cz)
+[Test link](www.github.com)
 
 x | y
 ------------ | -------------
