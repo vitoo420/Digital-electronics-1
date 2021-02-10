@@ -8,7 +8,7 @@
 
 ```
 
-[Test link](www.github.com)
+[Test link]()
 
 x | y
 ------------ | -------------
