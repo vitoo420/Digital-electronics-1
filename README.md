@@ -15,7 +15,7 @@ x | y
 0 | 10
 0 | 1
 
-Sometimes you want numbered lists:
+*Sometimes you want numbered lists:*
 
 1. One
 2. Two
