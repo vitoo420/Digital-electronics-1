@@ -2,7 +2,8 @@
 
 ## Task 2
 
-**Source code**
+**1. Source code**
+
 ```vhdl
 architecture dataflow of gates is
 begin
@@ -13,22 +14,28 @@ begin
 end architecture dataflow;
 ```
 
-[Test link]()
 
-a | b | c        f(a,b,c)
------------- | -------------
-0 | 0 | 0           x   
-0 | 0 | 1           x
-0 | 1 | 0
-0 | 1 | 1
-1 | 0 | 0
-1 | 0 | 1
-1 | 1 | 0
-1 | 1 | 1
+**2. Screenshot of time course**
 
-**Screenshot of time course
+  ![alt text][DeMorgan]
 
-![alt text][DeMorgan]
+  a | b | c        f(a,b,c)
+  ------------ | -------------
+  0 | 0 | 0           x   
+  0 | 0 | 1           x
+  0 | 1 | 0
+  0 | 1 | 1
+  1 | 0 | 0
+  1 | 0 | 1
+  1 | 1 | 0
+  1 | 1 | 1
+
+
+
+**3. Link**
+
+  [EDA Playground link](https://www.edaplayground.com/x/8MW7)
+
 
 
 *Sometimes you want numbered lists:*
@@ -36,6 +43,7 @@ a | b | c        f(a,b,c)
 1. One
 2. Two
 3. Three
+4.  Four
 
 Sometimes you want bullet points:
 
