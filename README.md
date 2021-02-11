@@ -28,13 +28,8 @@ a | b | c        f(a,b,c)
 
 **Screenshot of time course
 
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text][DeMorgan]
 
-Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
 *Sometimes you want numbered lists:*
 
@@ -53,3 +48,7 @@ Alternatively,
 - And if you have sub points, put two spaces before the dash or star:
   - Like this
   - And this
+ 
+ 
+  
+[DeMorgan]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/01-gates/Img/Casovy_prubeh.png "DeMorgan time course"
