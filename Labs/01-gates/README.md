@@ -19,16 +19,16 @@ end architecture dataflow;
 
   ![alt text][DeMorgan]
 
-  a | b | c        f(a,b,c)
-  ------------ | -------------
-  0 | 0 | 0           x   
-  0 | 0 | 1           x
-  0 | 1 | 0
-  0 | 1 | 1
-  1 | 0 | 0
-  1 | 0 | 1
-  1 | 1 | 0
-  1 | 1 | 1
+  a | b | c     f(a,b,c)
+  ---------- | ---------
+  0 | 0 | 0  |     1   
+  0 | 0 | 1  |     0
+  0 | 1 | 0  |     0 
+  0 | 1 | 1  |     0
+  1 | 0 | 0  |     1
+  1 | 0 | 1  |     1
+  1 | 1 | 0  |     0  
+  1 | 1 | 1  |     0
 
 
 
@@ -37,9 +37,18 @@ end architecture dataflow;
   [EDA Playground link](https://www.edaplayground.com/x/8MW7)
 
 
-##Task 3
+## Task 3
  
 **1. Source code**
+
+```vhdl
+architecture dataflow of gates is
+begin
+    
+
+
+end architecture dataflow;
+```
 
 **2. Screenshot of time course**
 
