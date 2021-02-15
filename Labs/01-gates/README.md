@@ -19,7 +19,7 @@ end architecture dataflow;
 
   ![alt text][DeMorgan]
 
-  a | b | c     f(a,b,c)
+  a | b | c  |  f(a,b,c)
   ---------- | ---------
   0 | 0 | 0  |     1   
   0 | 0 | 1  |     0
