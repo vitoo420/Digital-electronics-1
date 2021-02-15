@@ -37,26 +37,16 @@ end architecture dataflow;
   [EDA Playground link](https://www.edaplayground.com/x/8MW7)
 
 
-
-*Sometimes you want numbered lists:*
-
-1. One
-2. Two
-3. Three
-4.  Four
-
-Sometimes you want bullet points:
-
-* Start a line with a star
-* Profit!
-
-Alternatively,
-
-- Dashes work just as well
-- And if you have sub points, put two spaces before the dash or star:
-  - Like this
-  - And this
+##Task 3
  
- 
+**1. Source code**
+
+**2. Screenshot of time course**
+
+**3. Link**
+  
+  
+  
+  
   
 [DeMorgan]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/01-gates/Img/Casovy_prubeh.png "DeMorgan time course"
