@@ -1,4 +1,7 @@
 # Lab 1
+## Task 1
+
+[My Git repository](https://github.com/vitoo420/Digital-electronics-1)
 
 ## Task 2
 
