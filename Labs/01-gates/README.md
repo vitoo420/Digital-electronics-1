@@ -17,7 +17,7 @@ f = !b*a + !c*!b
 
 NOR: !(b+!a)+!(c+b)
 
-NAND: !(!b*a*!c*!b)
+NAND: !(!b\*a\*!c\*!b)
 
 **2. Screenshot of time course**
 
