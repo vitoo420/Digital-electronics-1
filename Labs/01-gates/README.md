@@ -13,7 +13,7 @@ begin
 
 end architecture dataflow;
 ```
-f = !b*a + !c*!b
+f = !b\*a + !c\*!b
 
 NOR: !(b+!a)+!(c+b)
 
@@ -54,18 +54,18 @@ begin
 
 end architecture dataflow;
 ```
-x*y + x*z = x*(y+z)
+x\*y + x\*z = x\*(y+z)
 
-(x+y) * (x+z) = x + (y*z)
+(x+y) \* (x+z) = x + (y\*z)
 
 
-f1_o = x*y + x*z
+f1_o = x\*y + x\*z
 
-f2_o = x*(y+z)
+f2_o = x\*(y+z)
 
-f3_o = (x+y) * (x+z)
+f3_o = (x+y) \* (x+z)
 
-f4_o = x + (y*z)
+f4_o = x + (y\*z)
 
 **2. Screenshot of time course**
 
