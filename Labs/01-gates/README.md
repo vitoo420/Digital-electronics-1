@@ -63,7 +63,7 @@ f1_o = x\*y + x\*z
 
 f2_o = x\*(y+z)
 
-f3_o = (x+y) \* (x+z)
+f3_o = (x+y) \* (x+z) 
 
 f4_o = x + (y\*z)
 
