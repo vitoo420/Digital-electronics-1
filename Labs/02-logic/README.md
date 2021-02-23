@@ -1,4 +1,4 @@
-# Lab1
+# Lab 2
 
 ## Task 1
 
@@ -36,8 +36,19 @@ pos(less): (b1 + b0 + a1 + a0) \* (b1 + !b0 + a1 + a0) \* (b1 + !b0 + a1 + !a0) 
 ### Karnaugh maps
 
 ![alt text][B_greater_A]
+
 ![alt text][B_equals_A]
+
 ![alt text][B_less_A]
+
+### Simplified equations
+
+SoP of b>a f(b1, b0, a1, a0) = (b0\*!a1\*!a0) + (b1\*!a1) + (b1\*b0*\!a0) 
+
+PoS of b<a f(b1, b0, a1, a0) = (a1 + a0)(!b0 + a1)(!b0+a0)(!b1 + a1)(!b1 + a0)(!b1 + !b0)
+
+### Link to playground
+
 
 
 ## Task 3
@@ -56,10 +67,10 @@ pos(less): (b1 + b0 + a1 + a0) \* (b1 + !b0 + a1 + a0) \* (b1 + !b0 + a1 + !a0) 
 
 ### Screenshot of waveforms
 
-### Link
-[EDA Playground link](https://www.edaplayground.com/x/vwkq)
+### Link to playground
+[EDA Playground link]()
 
 
-[B_less_A]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/02-logic/Img/BlessA "B less A Karnaugh map"
-[B_greater_A]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/02-logic/Img/BgreaterA "B gretaer A Karnaugh map"
-[B_equals_A]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/02-logic/Img/BequalsA "B equals A Karnaugh map"
+[B_less_A]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/02-logic/Img/BlessA.jpg "B less A Karnaugh map"
+[B_greater_A]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/02-logic/Img/BgreaterA.jpg "B gretaer A Karnaugh map"
+[B_equals_A]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/02-logic/Img/BequalsA.jpg "B equals A Karnaugh map"
