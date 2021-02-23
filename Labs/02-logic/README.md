@@ -60,7 +60,8 @@ end architecture Behavioral;
 ```
 
 ### Link to playground
-[EDA Playground link] (https://www.edaplayground.com/x/vwkq)
+
+[EDA Playground link](https://www.edaplayground.com/x/vwkq)
 
 
 ## Task 3
@@ -148,7 +149,7 @@ end architecture Behavioral;
 
 ### Link to playground
 
-[EDA Playground link] (https://www.edaplayground.com/x/XAF3)
+[EDA Playground link](https://www.edaplayground.com/x/XAF3)
 
 
 [B_less_A]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/02-logic/Img/BlessA.jpg "B less A Karnaugh map"
