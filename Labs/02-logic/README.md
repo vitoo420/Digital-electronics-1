@@ -27,11 +27,20 @@
 
 According to the truth table, write canonical SoP (Sum of Products) and PoS (Product of Sums) forms for "equals" and "less than" functions:
 
-sop: fb=a (!b1\*!b0\*!a1\*!a2) + (!b1\*b0\*!a1\*a2) + (b1\*!b0\*a1\*!a2) + (b1\*b0\*a1\*a2)
+sop(equals): (!b1 \* !b0 \* !a1 \* !a0) + (!b1 \* b0 \* !a1 \* a0) + (b1 \* !b0 \* a1 \* !a0) + (b1 \* b0 \* a1 \* a0)
 
-pos: fb<a (b1 + b0 + a1 + a0) \* (b1 + !b0 + a1 + a0) \* (b1 + !b0 + a1 + !a0)
+pos(less): (b1 + b0 + a1 + a0) \* (b1 + !b0 + a1 + a0) \* (b1 + !b0 + a1 + !a0) \* (b1 + !b0 + !a1 + a0) \* (!b1 + b0 + a1 + a0) \* (!b1 + b0 + a1 + !a0) \* (!b1 + b0 + !a1 + a0) \* (!b1 + !b0 + a1 + a0) \* (!b1 + !b0 + a1 + !a0) \* (!b1 + !b0 + !a1 + a0) \* (!b1 + !b0 + !a1 + !a0)
 
 ## Task 2
+
+### Karnaugh maps
+
+![alt text][B_greater_A]
+![alt text][B_equals_A]
+![alt text][B_less_A]
+
+
+## Task 3
 
 ### Source code
 
@@ -49,3 +58,8 @@ pos: fb<a (b1 + b0 + a1 + a0) \* (b1 + !b0 + a1 + a0) \* (b1 + !b0 + a1 + !a0)
 
 ### Link
 [EDA Playground link](https://www.edaplayground.com/x/vwkq)
+
+
+[B_less_A]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/02-logic/Img/BlessA "B less A Karnaugh map"
+[B_greater_A]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/02-logic/Img/BgreaterA "B gretaer A Karnaugh map"
+[B_equals_A]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/02-logic/Img/BequalsA "B equals A Karnaugh map"
