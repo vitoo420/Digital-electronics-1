@@ -147,6 +147,7 @@ end architecture Behavioral;
 ![alt text][console]
 
 ### Link to playground
+
 [EDA Playground link] (https://www.edaplayground.com/x/XAF3)
 
 
