@@ -142,12 +142,12 @@ end architecture Behavioral;
     end process p_stimulus;
 ```
 
-### Screenshot of waveforms
+### Screenshot of console
 
 ![alt text][console]
 
 ### Link to playground
-[EDA Playground link](https://www.edaplayground.com/x/XAF3)
+[EDA Playground link] (https://www.edaplayground.com/x/XAF3)
 
 
 [B_less_A]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/02-logic/Img/BlessA.jpg "B less A Karnaugh map"
