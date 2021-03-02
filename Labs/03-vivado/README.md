@@ -2,7 +2,7 @@
 
 ## Task 1
 
-| **LED** | **Connection** | **Switch** | **Connection** | 
+| **LED** | **Pin** | **Switch** | **Pin** | 
 | :-: | :-: | :-: | :-: |
 | LED0 | H17 | SW0 | J15 |
 | LED1 | K15 | SW1 | L16 |
@@ -78,7 +78,24 @@ p_stimulus : process
 
 ### Waveform screenshot
 
-![alt text][B_greater_A]
+![alt text][waveform]
 
+## Task 3
+
+1. Click 'File -> Project -> New..'
+
+![alt text][pic1]
+
+2. Click 'Next'
+![alt text][pic2]
 
 [waveform]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/waveform.png "Waveform"
+[pic1]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/1.png "1"
+[pic2]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/2.png "2"
+[pic3]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/3.png "3"
+[pic4]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/4.png "4"
+[pic5]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/5.png "5"
+[pic6]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/6.png "6"
+[pic7]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/7.png "7"
+[pic8]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/8.png "8"
+[pic9]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/9.png "9"
