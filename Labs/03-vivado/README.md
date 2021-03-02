@@ -87,10 +87,12 @@ p_stimulus : process
 ![alt text][pic1]
 
 2. Click 'Next'
+
 ![alt text][pic2]
 
+
 [waveform]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/waveform.png "Waveform"
-[pic1]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/1.png "1"
+[pic1]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/1.png =960x540 "1"
 [pic2]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/2.png "2"
 [pic3]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/3.png "3"
 [pic4]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/4.png "4"
