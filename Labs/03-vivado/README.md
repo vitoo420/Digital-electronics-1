@@ -90,9 +90,37 @@ p_stimulus : process
 
 ![alt text][pic2]
 
+3. Name your project, select project path and click 'Next'
+
+![alt text][pic3]
+
+4. Select RTL project and click 'Next'
+
+![alt text][pic4]
+
+5. Select VHDL as File type, name new source file and click 'OK'
+
+![alt text][pic5]
+
+6. Optionally add Constraints file and click 'Next'
+
+![alt text][pic6]
+
+7. Select board 'Nexys A7-50T'
+
+![alt text][pic7]
+
+8. Check summary and click 'Finish'
+
+![alt text][pic8]
+
+9. Name new entity and click 'OK'
+
+![alt text][pic9]
+
 
 [waveform]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/waveform.png "Waveform"
-[pic1]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/1.png =960x540
+[pic1]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/1.png "1"
 [pic2]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/2.png "2"
 [pic3]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/3.png "3"
 [pic4]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/4.png "4"
