@@ -82,7 +82,9 @@ p_stimulus : process
 
 ## Task 3
 
-1. Click 'File -> Project -> New..'
+### Creating project
+
+1. Click 'File -> Project -> New...'
 
 ![alt text][pic1]
 
@@ -106,7 +108,7 @@ p_stimulus : process
 
 ![alt text][pic6]
 
-7. Select board 'Nexys A7-50T'
+7. Select board 'Nexys A7-50T' and click 'Next'
 
 ![alt text][pic7]
 
@@ -117,6 +119,44 @@ p_stimulus : process
 9. Name new entity and click 'OK'
 
 ![alt text][pic9]
+
+### Adding source files
+
+1. Click 'File -> Add Sources...', select 'Add or create design sources' and click 'Next'
+
+![alt text][pic10]
+
+2. Click 'Create file' name source file and click 'OK'
+
+![alt text][pic11]
+
+3. Name new entity and optionally define port and click 'OK' 
+
+![alt text][pic12]
+
+### Adding testbench file
+
+1. Click 'File -> Add Sources...', select 'Add or create simulation sources' and click 'Next'
+
+![alt text][pic13]
+
+2. Name new file same as source file with tb_ prefix 
+
+![alt text][pic14]
+
+3. Name new entity same as entity in source file with tb_ prefix
+
+![alt text][pic15]
+
+### Running simulation
+
+1. Click 'Flow -> Run Simulation -> Run Behavioral Simulation'
+
+![alt text][pic16]
+
+3. Done!
+
+![alt text][pic17]
 
 
 [waveform]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/waveform.png "Waveform"
@@ -129,3 +169,11 @@ p_stimulus : process
 [pic7]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/7.png "7"
 [pic8]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/8.png "8"
 [pic9]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/9.png "9"
+[pic10]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/10.png "10"
+[pic11]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/11.png "11"
+[pic12]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/12.png "12"
+[pic13]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/13.png "13"
+[pic14]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/14.png "14"
+[pic15]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/15.png "15"
+[pic16]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/16.png "16"
+[pic17]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/03-vivado/Img/17.png "17"
