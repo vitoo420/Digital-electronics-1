@@ -1,6 +1,3 @@
-Sviti pri privedeni 0!
-seg_o na screenu binarne, hex_i hexa
-
 # Lab 4
 
 ## Task 1
