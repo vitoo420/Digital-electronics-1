@@ -152,6 +152,6 @@ end architecture Behavioral;
 
 ![alt text][schema]
 
-[schema]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/05-counter/Img/schema.png "Schema" 
+[schema]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/05-counter/Img/schema.jpg "Schema" 
 [schematic]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/04-segment/Img/Schema.png "Schema"
-[waveform]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/05-counter/Img/waveform.png "Waveform"
+[waveform]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/05-counter/Img/waveform.jpg "Waveform"
