@@ -1,4 +1,4 @@
-# Lab 5
+# Lab 6
 
 ## Task 1
 
@@ -203,6 +203,8 @@ end Behavioral;
 
 ## Task 3
 
+![alt text][schematic]
 
 [waveform]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/06-display_driver/Img/waveform.jpg "Waveform"
 [wavedrom]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/06-display_driver/Img/wavedrom.png "Wavedrom"
+[schematic]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/06-display_driver/Img/schematic.jpg "Schematic"
