@@ -81,8 +81,15 @@ uut_d_ff_arst : entity work.d_ff_arst
         -- Reset activated
         s_arst <= '1';
         wait for 15 ns;
+        assert(s_q = '0' and s_q = '1');
 
         -- Reset deactivated
+        s_arst <= '0';
+        wait for 22 ns;
+        s_arst <= '1';
+        wait for 5 ns;
+        assert(s_q = '0' and s_q = '1');
+        
         s_arst <= '0';
 
         wait;
@@ -98,6 +105,22 @@ uut_d_ff_arst : entity work.d_ff_arst
         
         --switch d sequence
         wait for 13 ns;   
+        s_d <= '1';
+        wait for 10 ns;
+        s_d <= '0';
+        wait for 10 ns;
+        s_d <= '1';
+        wait for 10 ns;
+        s_d <= '0';
+        wait for 10 ns;
+        s_d <= '1';
+        wait for 10 ns;
+        s_d <= '0';
+        wait for 10 ns;
+        --/switch d sequence
+        
+        --switch d sequence
+        wait for 10 ns;   
         s_d <= '1';
         wait for 10 ns;
         s_d <= '0';

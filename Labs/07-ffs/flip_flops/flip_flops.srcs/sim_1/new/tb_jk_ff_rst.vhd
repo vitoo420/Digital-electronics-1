@@ -78,7 +78,8 @@ p_clk_gen : process
         -- Reset activated
         s_rst <= '1';
         wait for 15 ns;
-
+        assert(s_q = '0');
+        
         -- Reset deactivated
         s_rst <= '0';
 
@@ -104,13 +105,18 @@ p_clk_gen : process
         s_k <= '1';
         
         
-        wait for 10 ns;
+        wait for 13 ns;   
         s_j <= '1';
         s_k <= '1';
-        wait for 10 ns;
+        wait for 20 ns;
         s_j <= '1';
+        s_k <= '0';
+        wait for 20 ns;
+        s_j <= '0';
         s_k <= '1';
-        wait for 10 ns;
+        wait for 20 ns;
+        s_j <= '0';
+        s_k <= '0';
         --/switch d sequence
         
         report "Stimulus process finished" severity note;

@@ -79,8 +79,7 @@ begin
         s_en <= '1';
         
         wait for 3 ns;
-        assert(s_q = '0' and s_q_bar = '1')
-        report "neco" severity error;
+        assert(s_q = '0' and s_q_bar = '1');
         
         --switch d sequence
         wait for 7 ns;   
