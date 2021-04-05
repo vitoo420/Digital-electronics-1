@@ -149,7 +149,7 @@ end process p_d_latch;
 
 ## Task 3
 
-### p_d_ff_arst + clock, reset, stimulus
+### p_d_ff_arst + reset, stimulus
 
 ```vhdl
 p_d_ff : process (arst, clk)
