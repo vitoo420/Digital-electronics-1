@@ -1,6 +1,6 @@
-webtalk_init -webtalk_dir D:/Users/vitja/Documents/DE1/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.sim/sim_1/behav/xsim/xsim.dir/tb_jk_ff_rst_behav/webtalk/
+webtalk_init -webtalk_dir D:/Users/vitja/Documents/DE1/Digital-electronics-1/Labs/08-traffic-lights/traffic/traffic.sim/sim_1/behav/xsim/xsim.dir/tb_tlc_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Tue Mar 30 20:09:26 2021" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Mon Apr  5 20:57:14 2021" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2020.2 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "3064766" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -13,8 +13,8 @@ webtalk_add_data -client project -key target_device -value "not_applicable" -con
 webtalk_add_data -client project -key target_package -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "bb45780c-20f5-4f41-b9c2-8d41e92f6098" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_id -value "36a5de5024484757aab905fa0fdcbb7d" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "17" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_id -value "a489bb6257d648c7bc70a4a948571604" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "30" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Windows Server 2016 or Windows 10" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz" -context "user_environment"
@@ -24,9 +24,9 @@ webtalk_add_data -client project -key system_ram -value "16.000 GB" -context "us
 webtalk_register_client -client xsim
 webtalk_add_data -client xsim -key Command -value "xsim" -context "xsim\\command_line_options"
 webtalk_add_data -client xsim -key trace_waveform -value "true" -context "xsim\\usage"
-webtalk_add_data -client xsim -key runtime -value "1 us" -context "xsim\\usage"
-webtalk_add_data -client xsim -key iteration -value "0" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Time -value "0.03_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Memory -value "5948_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 2948973860 -regid "" -xml D:/Users/vitja/Documents/DE1/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.sim/sim_1/behav/xsim/xsim.dir/tb_jk_ff_rst_behav/webtalk/usage_statistics_ext_xsim.xml -html D:/Users/vitja/Documents/DE1/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.sim/sim_1/behav/xsim/xsim.dir/tb_jk_ff_rst_behav/webtalk/usage_statistics_ext_xsim.html -wdm D:/Users/vitja/Documents/DE1/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.sim/sim_1/behav/xsim/xsim.dir/tb_jk_ff_rst_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key runtime -value "10 us" -context "xsim\\usage"
+webtalk_add_data -client xsim -key iteration -value "1" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Simulation_Time -value "0.05_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Simulation_Memory -value "6060_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 2697865938 -regid "" -xml D:/Users/vitja/Documents/DE1/Digital-electronics-1/Labs/08-traffic-lights/traffic/traffic.sim/sim_1/behav/xsim/xsim.dir/tb_tlc_behav/webtalk/usage_statistics_ext_xsim.xml -html D:/Users/vitja/Documents/DE1/Digital-electronics-1/Labs/08-traffic-lights/traffic/traffic.sim/sim_1/behav/xsim/xsim.dir/tb_tlc_behav/webtalk/usage_statistics_ext_xsim.html -wdm D:/Users/vitja/Documents/DE1/Digital-electronics-1/Labs/08-traffic-lights/traffic/traffic.sim/sim_1/behav/xsim/xsim.dir/tb_tlc_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate
