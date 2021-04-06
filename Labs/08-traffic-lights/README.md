@@ -4,11 +4,12 @@
 
 | **Input P** | `0` | `0` | `1` | `1` | `0` | `1` | `0` | `1` | `1` | `1` | `1` | `0` | `0` | `1` | `1` | `1` |
 | :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| **Clock** | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) |
-| **State** | A | A | B |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| **Output R** | `0` | `0` | `0` |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| **Clock** | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) |
+| **State** | A | A | B | C | C | D | A | B | C | D | D | A | A | B | C | D |
+| **Output R** | `0` | `0` | `0` | `0` | `0` | `1` | `0` | `0` | `0` | `1` | `1` | `0` | `0` | `0` | `0` | `1` |
 
-** doplnit obrazek**
+
+![alt text][figure]
 
 | **RGB LED** | **Artix-7 pin names** | **Red** | **Yellow** | **Green** |
 | :-: | :-: | :-: | :-: | :-: |
@@ -18,6 +19,8 @@
 ## Task 2
 
 ### State diagram
+
+![alt text][state_diagram]
 
 ### p_traffic_fsm process
 
@@ -139,7 +142,20 @@ p_output_fsm : process(s_state)
 
 ### State table
 
+First column shows actual state and others shows next state depending on input
+
+| **State** | **No cars** | **Cars to west** | **Cars to south** | **Cars both direction** | 
+| :-: | :-: | :-: | :-: | :-: |
+| Stop1 | WestGo | WestGo | Stop2 | WestGo |
+| Stop2 | SouthGo | Stop1 | SouthGo | SouthGo |
+| WestGo | WestWait | WestWait | Stop2 | WestWait |
+| WestWait | Stop2 | Stop1 | Stop2 | Stop2 |
+| SouthGo | SouthWait | Stop1 | SouthWait | SouthWait |
+| SouthWait | Stop1 | Stop1 | Stop2 | Stop1 |
+
 ### State diagram
+
+![alt text][state_diagram2]
 
 ### p_smart_traffic_fsm process
 
@@ -227,3 +243,6 @@ p_smart_traffic_fsm : process(clk)
 
 [wave1]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/08-traffic-lights/Img/wave1.jpg "waveform"
 [wave2]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/08-traffic-lights/Img/wave2.jpg "waveform"
+[state_diagram]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/08-traffic-lights/Img/state_diagram.jpg "state diagram"
+[state_diagram2]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/08-traffic-lights/Img/state_diagram2.jpg "state diagram"
+[figure]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/08-traffic-lights/Img/figure.png "figure"
