@@ -4,7 +4,7 @@
 
 | **Input P** | `0` | `0` | `1` | `1` | `0` | `1` | `0` | `1` | `1` | `1` | `1` | `0` | `0` | `1` | `1` | `1` |
 | :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| **Clock** | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) | ![rising](images/eq_uparrow.png) |
+| **Clock** | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) | ![rising](Img/eq_uparrow.png) |
 | **State** | A | A | B | C | C | D | A | B | C | D | D | A | A | B | C | D |
 | **Output R** | `0` | `0` | `0` | `0` | `0` | `1` | `0` | `0` | `0` | `1` | `1` | `0` | `0` | `0` | `0` | `1` |
 
@@ -244,5 +244,5 @@ p_smart_traffic_fsm : process(clk)
 [wave1]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/08-traffic-lights/Img/wave1.jpg "waveform"
 [wave2]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/08-traffic-lights/Img/wave2.jpg "waveform"
 [state_diagram]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/08-traffic-lights/Img/state_diagram.jpg "state diagram"
-[state_diagram2]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/08-traffic-lights/Img/state_diagram2.jpg "state diagram"
+[state_diagram2]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/08-traffic-lights/Img/rsz_state_diagram_2.jpg "state diagram"
 [figure]: https://github.com/vitoo420/Digital-electronics-1/blob/main/Labs/08-traffic-lights/Img/figure.png "figure"
